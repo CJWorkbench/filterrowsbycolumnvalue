@@ -1,0 +1,25 @@
+{
+  "name": "Filter rows",
+  "id_name": "filterrowsbycolumnvalue",
+  "description": "Filter rows by column value",
+  "category" : "Campaign Finance",
+  "parameters": [
+    {
+      "name": "Column",
+      "id_name" : "column",
+      "type": "string"
+    },
+    {
+      "name": "Value",
+      "id_name" : "value",
+      "type": "string"
+    },
+    {
+      "name": "Type of Filter",
+      "id_name" : "typeoffilter",
+      "type" : "menu",
+      "menu_items" : "Include rows by column value|Exclude rows by column value",
+      "default": "0"
+    }
+  ]
+}
