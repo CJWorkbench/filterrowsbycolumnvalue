@@ -21,8 +21,8 @@ class Importable:
             return None
         else:
             if typeoffilter == 'Include rows by column value':
-                newtab = table.loc(table[column] == value)
+                newtab = table.loc[table[column] == value]
             else:
-                newtab = table.loc(table[column] != value)
+                newtab = table.loc[table[column] != value]
             wf_module.set_ready(notify=False)
             return newtab
