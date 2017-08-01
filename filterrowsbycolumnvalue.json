@@ -15,10 +15,10 @@
       "type": "string"
     },
     {
-      "name": "Type of Filter",
+      "name": "Selected Rows",
       "id_name" : "typeoffilter",
       "type" : "menu",
-      "menu_items" : "Include rows by column value|Exclude rows by column value",
+      "menu_items" : "Include|Exclude",
       "default": "0"
     }
   ]
