@@ -1,24 +1,24 @@
 {
-  "name": "Filter rows",
+  "name": "Filter Rows By Value",
   "id_name": "filterrowsbycolumnvalue",
-  "description": "Filter rows by column value",
-  "category" : "Campaign Finance",
+  "description": "Filter rows by searching values in a specific column.",
+  "category" : "Filter",
   "parameters": [
     {
-      "name": "Column",
+      "name": "Search in column",
       "id_name" : "column",
       "type": "string"
     },
     {
-      "name": "Value",
+      "name": "Search for",
       "id_name" : "value",
       "type": "string"
     },
     {
-      "name": "Selected Rows",
+      "name": "Filter type",
       "id_name" : "typeoffilter",
       "type" : "menu",
-      "menu_items" : "Include|Exclude",
+      "menu_items" : "Keep|Drop",
       "default": "0"
     }
   ]
