@@ -20,7 +20,7 @@ class Importable:
             wf_module.set_error('Invalid column.')
             return None
         else:
-            if typeoffilter == 'Include':
+            if typeoffilter == 'Keep':
                 newtab = table.loc[table[column] == value]
             else:
                 newtab = table.loc[table[column] != value]
