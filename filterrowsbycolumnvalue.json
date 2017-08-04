@@ -3,6 +3,7 @@
   "id_name": "filterrowsbycolumnvalue",
   "description": "Filter rows by matching values in a specific column.",
   "category" : "Filter",
+  "icon": "filter",
   "parameters": [
     {
       "name": "Search in column",
