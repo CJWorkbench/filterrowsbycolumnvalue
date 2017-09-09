@@ -8,7 +8,7 @@
     {
       "name": "Search in column",
       "id_name" : "column",
-      "type": "string"
+      "type": "column"
     },
     {
       "name": "Search for",
