@@ -9,7 +9,7 @@ class Importable:
 
     @staticmethod
     def render(wf_module, table):
-        column = wf_module.get_param_string('column')
+        column = wf_module.get_param_column('column')
         value = wf_module.get_param_string('value')
         typeoffilter = wf_module.get_param_menu_string('typeoffilter')
 
