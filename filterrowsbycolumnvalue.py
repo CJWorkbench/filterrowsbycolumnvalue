@@ -21,8 +21,8 @@ class Importable:
             return None
         else:
             if typeoffilter == 'Keep':
-                newtab = table.loc[table[column] == value]
+                newtab = table.loc[table[column].astype(str) == value]
             else:
-                newtab = table.loc[table[column] != value]
+                newtab = table.loc[table[column].astype(str) != value]
             wf_module.set_ready(notify=False)
             return newtab
