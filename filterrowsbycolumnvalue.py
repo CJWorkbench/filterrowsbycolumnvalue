@@ -15,10 +15,10 @@ class Importable:
 
         if column == '' or value == '':
             wf_module.set_ready(notify=False)
-            return None
+            return table
         elif column not in table.columns:
             wf_module.set_error('Invalid column.')
-            return None
+            return table
         else:
             if typeoffilter == 'Keep':
                 newtab = table.loc[table[column].astype(str) == value]
