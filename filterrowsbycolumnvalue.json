@@ -3,6 +3,7 @@
   "id_name": "filterrowsbycolumnvalue",
   "description": "Filter rows by matching values in a specific column.",
   "category" : "Analyse",
+  "help_url":"modules/analyse/filter-by-text",
   "icon": "filter",
   "parameters": [
     {
