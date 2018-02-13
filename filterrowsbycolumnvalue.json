@@ -2,7 +2,7 @@
   "name": "Filter Rows by Value",
   "id_name": "filterrowsbycolumnvalue",
   "description": "Filter rows by matching values in a specific column.",
-  "category" : "Analyse",
+  "category" : "do not load",
   "help_url":"modules/analyse/filter-by-text",
   "icon": "filter",
   "parameters": [
