@@ -1,5 +1,5 @@
 {
-  "name": "Filter Rows by Value",
+  "name": "Filter by value",
   "id_name": "filterrowsbycolumnvalue",
   "description": "Filter rows by matching values in a specific column.",
   "category" : "do not load",
